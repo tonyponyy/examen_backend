@@ -50,8 +50,6 @@ public class JWTController {
     }
     
 
-    
-    
     @PostMapping("/signup")
 	public ResponseEntity<User> signup(@RequestBody SignUpRequest signUpRequest){
 		
